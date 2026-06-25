@@ -14,3 +14,76 @@
     object-fit: cover;
     border-radius: 4px;
 }
+
+.animales {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.animales h1 {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.cougar {
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+}
+
+
+.elephant {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+
+.giraffe {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+
+.iguana {
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+}
+
+.lion {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+
+.rhino {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
+
+
+.tiger {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+}
+
+
+.wolf {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+
+.zebra {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.hippopotamus {
+    grid-column: 3 / 5;
+    grid-row: 4 / 5;
+}
